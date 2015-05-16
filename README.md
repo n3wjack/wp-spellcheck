@@ -45,6 +45,8 @@ There you fix the mistakes, save and get on with the next one. Quite tedious ind
 Next to each found word, there's a checkbox. Checking that will hide the list of posts for that word. This makes it handy to keep track of what's done.
 Note that this isn't stored anywhere. So if you close the browser window and reopen the file it will be reset.
 
+You can see a [screenshot of the report here](http://n3wjack.net/2015/05/16/a-wordpress-full-site-spell-checker-tool/).
+
 ## A word about Hunspell
 
 Hunspell is the spell checker used from the script and it's great because I wouldn't want to write that myself. You can find more info about it on [Hunspell website](http://hunspell.sourceforge.net/) including additional dictionaries if English doesn't cut it, or the manuals in case you want to add word exclusions or fancy stuff like that.

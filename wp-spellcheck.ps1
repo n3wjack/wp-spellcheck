@@ -9,7 +9,7 @@ param (
 function Run-SpellCheck ($WpExportFile)
 {
     [xml]$xml = get-content $WpExportFile
-    $posts = $xml.rss.channel.GetElementsByTagName("item") | select -first 100
+    $posts = $xml.rss.channel.GetElementsByTagName("item")
     
     if ($posts -eq $null)
     {
